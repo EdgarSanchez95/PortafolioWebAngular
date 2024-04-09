@@ -1,13 +1,31 @@
 .banner-container {
-   // background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 50px;
-    position: relative;
+    background-image: url(../../../assets/img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-position: center;
+   gap: 0.8rem;
+   position: relative;
+   img {
+    max-width: 100%;
+   }
 
-    .titulo {
-        color: azure;
-        font-size: 4.5rem;
-        text-shadow: 3px 3px 5px #000;
-    }
+   .contenido {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    position:sticky;
+   }
+ .icono-info{
+    color: #D5D8DC;
+    gap: 0.5rem;
+    
+ }
+
+ .texto-info {
+    color: #D5D8DC;
+    display: block;
+    padding-top: 10px;
+    margin-right: 15px;
+ }
+   
 }
