@@ -1,0 +1,27 @@
+.navbar-container {
+    padding: 2rem 3rem;
+    background-color: #1C2833;
+
+    .navbar-left img {
+        border-radius: 40%;
+    }
+    .text-logo{
+        color: white;
+    }
+    .navbar-right {
+        .social {
+            a:hover {
+                transform: scale(1.2);
+            }
+            a.social-linkedln {
+                color: #007BB6;   
+            }
+            a.social-whatsapp {
+                color: #075e54;
+            }
+            a.social-github {
+                color: #444444;
+            }
+        }
+    }
+}
