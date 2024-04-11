@@ -8,11 +8,12 @@
             border-radius: 50%;
             width: 10%;
             position: absolute;
-            top: -5vw;
+            top: -15vw;
             left: 7%;
         }
          h1{
             text-shadow: 3px 3px 5px #fff;
+            margin-top: -10vw;
             .bi{
                 color: #3498DB;
             }
@@ -27,6 +28,7 @@
     }
 
     .text-about {
+        margin-top: -10vw;
         h3.seccion-titulo {
             font-size: 2.5rem;
         }
