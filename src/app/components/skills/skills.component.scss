@@ -1,0 +1,27 @@
+.accordion-item {
+    .accordion-header {
+        background-color: #2C3E50;
+        .accordion-button {
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+
+    }
+}
+
+.accordion-collapse {
+    .accordion-body {
+        padding-top: 15px;
+        padding-left: 30px;
+        display: inline-block;
+        margin: 0 60px 0 0 ;
+    
+        .progress {
+            margin-top: 10px;
+            .progress-bar {
+            
+            }
+        }
+    }
+}
+}
